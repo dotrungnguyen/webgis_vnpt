@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .web-view {
+        @apply h-screen bg-black flex flex-row max-h-screen;
+    }
+
+    .sidebar-on {
+        @apply w-80 h-screen flex flex-col items-center bg-gray-50 overflow-y-scroll;
+    }
+
+    .sidebar-off {
+        @apply w-16 h-screen flex flex-col items-center bg-gray-50 transition overflow-y-scroll;
+    }
+
+    .sidebar-block {
+        @apply w-full flex flex-row items-center;
+    }
+
+    .sidebar-block-col {
+        @apply w-full flex flex-col items-center;
+    }
+
+    .sidebar-rounded {
+        @apply w-5/6 rounded-md h-11 text-center flex flex-row  items-center;
+    }
+
+    .sidebar-title-1 {
+        @apply w-9/12 flex justify-start text-sz1 leading-none;
+    }
+
+    .map-view {
+        @apply w-full h-screen bg-yellow-400;
+    }
+
+    .bt {
+        @apply w-1/12 h-screen bg-red-500;
+    }
+
+    .sidebar-header {
+        @apply w-5/6 rounded-md h-20 text-center flex flex-row  items-center;
+    }
+
+    .sidebar-icon {
+        @apply w-16 flex justify-center;
+    }
+
+    .sidebar-button {
+        @apply w-auto;
+    }
+
+    .item-icon {
+        @apply w-16 flex justify-center;
+    }
+
+    .item-sidebar-title {
+        @apply w-9/12 flex justify-start text-sz1 leading-none;
+    }
+
+    .item-sidebar-off {
+        @apply w-5/6 rounded-md h-11 text-center flex flex-row  items-center hover:bg-gray-100;
+    }
+    .item-sidebar-on {
+        @apply w-5/6 rounded-md h-11 text-center flex flex-row  items-center bg-gray-200;
+    }
+
+    .input-number {
+        /* flex flex-row  items-center w-12 shadow appearance-none rounded; */
+        /*focus:shadow-outline; */
+        @apply rounded-md outline-none focus:outline-none text-center bg-gray-300 font-semibold text-sz1 hover:text-black focus:text-black flex items-center text-gray-700;
+    }
+
+    .controlbase {
+        @apply flex flex-col items-center;
+    }
+
+    .controlblock {
+        @apply w-full flex flex-row  items-start;
+    }
+
+    .input-from {
+        @apply w-full flex flex-row items-center;
+    }
+
+    .controlbase-submit {
+        @apply rounded-md w-12 h-12 text-center content-center flex flex-row  items-center bg-gray-200;
+    }
+
+    .check-box {
+        @apply rounded-md w-5/6 h-5 p-1  flex flex-row items-center;
+    }
+
+    .text-item {
+        @apply text-sz1 lowercase leading-none mx-2
+    }
+}
