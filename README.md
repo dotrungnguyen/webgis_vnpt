@@ -1,7 +1,7 @@
 # vnpt_webgis
 
 Giao diện website sử dụng VueJS và các dịch vụ bản đồ ArcGIS API - JavaScript.
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](Screenshot from 2021-07-28 15-11-28.png)
 
 ## setup
 ```
