@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 ## technology
-https://developers.arcgis.com/javascript
-https://vuejs.org/
-https://vitejs.dev/
-https://tailwindcss.com/
+- https://developers.arcgis.com/javascript
+- https://vuejs.org/
+- https://vitejs.dev/
+- https://tailwindcss.com/
