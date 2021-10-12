@@ -8,9 +8,10 @@ Giao diện website sử dụng VueJS và các dịch vụ bản đồ ArcGIS AP
 npm install
 npm run dev
 ```
-## technology
+## technology - references
 - https://developers.arcgis.com/javascript
 - https://vuejs.org/
+- https://vuex.vuejs.org/
 - https://vitejs.dev/
 - https://tailwindcss.com/
 
